@@ -1,0 +1,11 @@
+#game-field {
+  display: grid;
+  grid-template-columns: repeat(10, 35px);
+  border: grey;
+}
+
+#game-field * {
+  padding: 14px;
+  margin: 2px;
+  border: 1px inset grey;
+}
