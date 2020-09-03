@@ -1,9 +1,28 @@
+body {
+  background: pink; }
+
+#two-sides {
+  display: flex;
+  justify-content: space-around; }
+
 #game-field {
   display: grid;
   grid-template-columns: repeat(10, 35px);
-  border: grey; }
+  border: grey;
+  background: white; }
 
 #game-field * {
+  padding: 14px;
+  margin: 2px;
+  border: 1px inset grey; }
+
+#second-game-field {
+  display: grid;
+  grid-template-columns: repeat(10, 35px);
+  border: grey;
+  background: black; }
+
+#second-game-field * {
   padding: 14px;
   margin: 2px;
   border: 1px inset grey; }
